@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyun Tablosu</title>
+    <link rel="stylesheet" href="aSite.css">
+    <script>
+        function startTimer(element) {
+            // Etkinleştirilmiş linki devre dışı bırak
+            element.setAttribute("disabled", "true");
+        }
+
+        function disableLink(link) {
+            link.setAttribute("disabled", "true");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Oyun Tablosu</h1>
+        <table>
+            <tr>
+                <th>Fußball</th>
+                <th>Basketball</th>
+                <th>Volleyball</th>
+                <th>Tennis</th>
+            </tr>
+            <tr>
+                <td><a href="Fsoru1.html" onclick="startTimer(this)">100P</a></td>
+                <td><a href="Bsoru1.html" onclick="startTimer(this)">100P</a></td>
+                <td><a href="Vsoru1.html" onclick="startTimer(this)">100P</a></td>
+                <td><a href="Tsoru1.html" onclick="startTimer(this)">100P</a></td>
+            </tr>
+            <tr>
+                <td><a href="Fsoru2.html" onclick="startTimer(this)">200P</a></td>
+                <td><a href="Bsoru2.html" onclick="startTimer(this)">200P</a></td>
+                <td><a href="Vsoru2.html" onclick="startTimer(this)">200P</a></td>
+                <td><a href="Tsoru2.html" onclick="startTimer(this)">200P</a></td>
+            </tr>
+            <tr>
+                <td><a href="Fsoru3.html" onclick="startTimer(this)">300P</a></td>
+                <td><a href="Bsoru3.html" onclick="startTimer(this)">300P</a></td>
+                <td><a href="Vsoru3.html" onclick="startTimer(this)">300P</a></td>
+                <td><a href="Tsoru3.html" onclick="startTimer(this)">300P</a></td>
+            </tr>
+            <tr>
+                <td><a href="Fsoru4.html" onclick="startTimer(this)">400P</a></td>
+                <td><a href="Bsoru4.html" onclick="startTimer(this)">400P</a></td>
+                <td><a href="Vsoru4.html" onclick="startTimer(this)">400P</a></td>
+                <td><a href="Tsoru4.html" onclick="startTimer(this)">400P</a></td>
+            </tr>
+            <tr>
+                <td><a href="Fsoru5.html" onclick="startTimer(this)">500P</a></td>
+                <td><a href="Bsoru5.html" onclick="startTimer(this)">500P</a></td>
+                <td><a href="Vsoru5.html" onclick="startTimer(this)">500P</a></td>
+                <td><a href="Tsoru5.html" onclick="startTimer(this)">500P</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
